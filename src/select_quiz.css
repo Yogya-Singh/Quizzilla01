@@ -1,0 +1,92 @@
+:root {
+    background-color: #f7f5e6;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* UTILITIES */
+
+#header {
+    background-color: #52658f;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    font-size: 28px;
+}
+
+#header>h2 {
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-left: 660px;
+}
+
+#footer {
+    background-color: #333a56;
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+
+#footer>p {
+    font-size: 11px;
+    color: white;
+    margin: auto;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 555px;
+}
+
+
+/* BUTTONS */
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #52658f7c;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+
+#heading {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-size: 21px;
+    color: #52658f;
+}
+
+#heading>h1{
+    color: #52658f;
+}
+
+.quizSelector {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    border: 1px solid #52658f;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #52658f; 
+    text-decoration: none;
+    align-items: center;
+}
